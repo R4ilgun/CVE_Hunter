@@ -30,7 +30,7 @@ def getCVE():
 
 def writeCVE():
 	try:
-		conn = cve_mysql.connect(host='127.0.0.1', port=3306, user='root', passwd='MIEri521', db='cve', charset='utf8')
+		conn = cve_mysql.connect(host='127.0.0.1', port=3306, user='root', passwd='root', db='cve', charset='utf8')
 	except Exception as e:
 		print(e,"Mysql connect failed!")
 
