@@ -12,4 +12,4 @@ A system to get CVE_POC from Github.
 2.数据库存在两个表，一个是cve_github存放POC的主要信息，另一个是user表，存放用户的主要信息，表结构如下。
 ![image](https://github.com/R4ilgun/CVE_Hunter/blob/main/readme_image/database_table.png)
 
-3.github.py一般设置CRON计划任务，自动获取相关信息并写入数据库中，Hunter.zip是前端+后端代码。
+3.github.py一般设置CRON计划任务，自动获取相关信息并写入数据库中(自己按照上面的图把库建好，我就不贴了，懒)，Hunter.zip是前端+后端代码。
