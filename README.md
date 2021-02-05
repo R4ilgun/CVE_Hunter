@@ -7,4 +7,6 @@ A system to get CVE_POC from Github.
 
 需要注意几个问题:
 
-login.php中判断登录，因为我比较懒，不想对username做过滤就直接判断是否为指定用户名，不是的话就exit()了。
+1.login.php中判断登录，因为我比较懒，不想对username做过滤就直接判断是否为指定用户名，不是的话就exit()了。
+2.数据库存在两个表，一个是cve_github存放POC的主要信息，另一个是user表，存放用户的主要信息。
+
